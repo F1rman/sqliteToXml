@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XMLBIBLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" biblename="Russian">
+  <BIBLEBOOK bnumber="1" bname="Бытие"/>
+  <BIBLEBOOK bnumber="2" bname="Исход"/>
+  <BIBLEBOOK bnumber="3" bname="Левит"/>
+  <BIBLEBOOK bnumber="4" bname="Числа"/>
+  <BIBLEBOOK bnumber="5" bname="Второзаконие"/>
+  <BIBLEBOOK bnumber="6" bname="Иисус Навин"/>
+  <BIBLEBOOK bnumber="7" bname="Судьи"/>
+  <BIBLEBOOK bnumber="8" bname="Руфь"/>
+  <BIBLEBOOK bnumber="9" bname="1-я Царств"/>
+  <BIBLEBOOK bnumber="10" bname="2-я Царств"/>
+  <BIBLEBOOK bnumber="11" bname="3-я Царств"/>
+  <BIBLEBOOK bnumber="12" bname="4-я Царств"/>
+  <BIBLEBOOK bnumber="13" bname="1-я Паралипоменон"/>
+  <BIBLEBOOK bnumber="14" bname="2-я Паралипоменон"/>
+  <BIBLEBOOK bnumber="15" bname="Ездра"/>
+  <BIBLEBOOK bnumber="16" bname="Неемия"/>
+  <BIBLEBOOK bnumber="17" bname="Есфирь"/>
+  <BIBLEBOOK bnumber="18" bname="Иов"/>
+  <BIBLEBOOK bnumber="19" bname="Псалтирь"/>
+  <BIBLEBOOK bnumber="20" bname="Притчи"/>
+  <BIBLEBOOK bnumber="21" bname="Екклесиаст"/>
+  <BIBLEBOOK bnumber="22" bname="Песня Песней"/>
+  <BIBLEBOOK bnumber="23" bname="Исаия"/>
+  <BIBLEBOOK bnumber="24" bname="Иеремия"/>
+  <BIBLEBOOK bnumber="25" bname="Плач Иеремии"/>
+  <BIBLEBOOK bnumber="26" bname="Иезекииль"/>
+  <BIBLEBOOK bnumber="27" bname="Даниил"/>
+  <BIBLEBOOK bnumber="28" bname="Осия"/>
+  <BIBLEBOOK bnumber="29" bname="Иоиль"/>
+  <BIBLEBOOK bnumber="30" bname="Амос"/>
+  <BIBLEBOOK bnumber="31" bname="Авдий"/>
+  <BIBLEBOOK bnumber="32" bname="Иона"/>
+  <BIBLEBOOK bnumber="33" bname="Михей"/>
+  <BIBLEBOOK bnumber="34" bname="Наум"/>
+  <BIBLEBOOK bnumber="35" bname="Аввакум"/>
+  <BIBLEBOOK bnumber="36" bname="Софония"/>
+  <BIBLEBOOK bnumber="37" bname="Аггей"/>
+  <BIBLEBOOK bnumber="38" bname="Захария"/>
+  <BIBLEBOOK bnumber="39" bname="Малахия"/>
+  <BIBLEBOOK bnumber="40" bname="От Матфея"/>
+  <BIBLEBOOK bnumber="41" bname="От Марка"/>
+  <BIBLEBOOK bnumber="42" bname="От Луки"/>
+  <BIBLEBOOK bnumber="43" bname="От Иоанна"/>
+  <BIBLEBOOK bnumber="44" bname="Деяния"/>
+  <BIBLEBOOK bnumber="45" bname="Иакова"/>
+  <BIBLEBOOK bnumber="46" bname="1-е Петра"/>
+  <BIBLEBOOK bnumber="47" bname="2-е Петра"/>
+  <BIBLEBOOK bnumber="48" bname="1-е Иоанна"/>
+  <BIBLEBOOK bnumber="49" bname="2-е Иоанна"/>
+  <BIBLEBOOK bnumber="50" bname="3-е Иоанна"/>
+  <BIBLEBOOK bnumber="51" bname="Иуды"/>
+  <BIBLEBOOK bnumber="52" bname="К Римлянам"/>
+  <BIBLEBOOK bnumber="53" bname="1-е Коринфянам"/>
+  <BIBLEBOOK bnumber="54" bname="2-е Коринфянам"/>
+  <BIBLEBOOK bnumber="55" bname="К Галатам"/>
+  <BIBLEBOOK bnumber="56" bname="К Ефесянам"/>
+  <BIBLEBOOK bnumber="57" bname="К Филиппийцам"/>
+  <BIBLEBOOK bnumber="58" bname="К Колоссянам"/>
+  <BIBLEBOOK bnumber="59" bname="1-е Фессалоникийцам"/>
+  <BIBLEBOOK bnumber="60" bname="2-е Фессалоникийцам"/>
+  <BIBLEBOOK bnumber="61" bname="1-е Тимофею"/>
+  <BIBLEBOOK bnumber="62" bname="2-е Тимофею"/>
+  <BIBLEBOOK bnumber="63" bname="К Титу"/>
+  <BIBLEBOOK bnumber="64" bname="К Филимону"/>
+  <BIBLEBOOK bnumber="65" bname="К Евреям"/>
+  <BIBLEBOOK bnumber="66" bname="Откровение">
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+    <CHAPTER cnumber="1"/>
+  </BIBLEBOOK>
+</XMLBIBLE>

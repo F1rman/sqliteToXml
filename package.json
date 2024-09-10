@@ -1,0 +1,16 @@
+{
+  "name": "sqlitetoxml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sqlite3": "^5.1.7",
+    "xmlbuilder": "^15.1.1"
+  }
+}
