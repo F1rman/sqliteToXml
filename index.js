@@ -44,57 +44,64 @@ init();
 
 async function init() {
     const bible = {
-        books: [
-
-        ]
+        books: []
     }
     const books = await getBooks();
 
-    books.forEach(async book => {
-        const verses = await getVerses(book.book_number);
+    for (let i = 0; i < books.length; i++) {
+        const verses = await getVerses(books[i].book_number);
+        const chapters = {
 
-        // each verses have a chapter index
-        verses.forEach(verse => {
-            const chapters = [];
-
-            // get all chapters with verses
-
-            if (!chapters.includes(verse.chapter)) {
-                chapters.push({
-                    [verse.chapter]: verse.text
-                });
+        }
+        for (var item of verses) {
+            if (!chapters[item.chapter]) {
+                chapters[item.chapter] = [];
             }
-        });
-
-
+            const trimPB = item.text.replace('<pb/>', '');
+            const trimedStrongs = trimPB.replace(/<S>.*?<\/S>/g, "");
+            const trimeAllTags = trimedStrongs.replace(/<.*?>/g, "");
+            chapters[item.chapter].push(trimeAllTags);
+        }
         bible.books.push({
-            [book.long_name]: {
-                chapters: chapters
-            }
+            [books[i].long_name]: chapters
         });
-        console.log(bible.books[0]);
+    }
+
+    console.log(bible.books.length);
+
+
+    const xml = builder.create('XMLBIBLE', { encoding: 'UTF-8', version: '1.0', standalone: true })
+        .att('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance')
+        .att('biblename', 'Russian');
+
+
+    // to xml
+    for (let i = 0; i < bible.books.length; i++) {
+        const book = bible.books[i];
+        const bookName = Object.keys(book)[0];
+        const bookChapters = book[bookName];
+        const bibleBook = xml.ele('BIBLEBOOK', { bnumber: i + 1, bname: bookName });
+
+        for (let chapter in bookChapters) {
+            const chapterElement = bibleBook.ele('CHAPTER', { cnumber: chapter });
+            const verses = bookChapters[chapter];
+            for (let verse in verses) {
+                chapterElement.ele('VERS', { vnumber: parseInt(verse)+1 }, verses[verse]);
+            }
+        }
+    }
+
+    const xmlString = xml.end({ pretty: true });
+
+    const outputPath = path.join(__dirname, 'bible.xml');
+    // Write the XML string to a file
+    fs.writeFile(outputPath, xmlString, (err) => {
+        if (err) {
+            console.error('Error writing XML file: ', err.message);
+        } else {
+            console.log(`XML file saved successfully`);
+        }
     });
-
-
-
-    // books.forEach(async book => {
-
-
-    //     const verses = await getVerses(book.book_number);
-    //     const chapters = [];
-    //     verses.forEach(verse => {
-    //         if (!chapters.includes(verse.chapter)) {
-    //             chapters.push(verse.text);
-    //         }
-    //     }
-    //     );
-
-
-
-
-    // });
-
-
 
 }
 
