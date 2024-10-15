@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "sqlite3": "^5.1.7",
+    "sqlite3": "^5.1.6",
     "xmlbuilder": "^15.1.1"
   }
 }

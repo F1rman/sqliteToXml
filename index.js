@@ -45,53 +45,52 @@ const getTable = (table) => {
 init();
 
 async function init() {
-    console.log('first')
-    //     const initDB = [
-    //         // {
-    //         //     title: title, // string
-    //         //     subtitle: subtitle, // string
-    //         //     hymnText: hymn_text, // string
-    //         //     hymnAuthor: hymn_author, // string
-    //         //     hymnBook: hymn_book, // int 1
-    //         //     bibleRef: {
-    //         //         book : 1, // int
-    //         //         ref: '', // string
-    //         //     },
-    //         //     hymnMeter: {
-    //         //         title: title, // string
-    //         //         img: img, // string
-    //         //         id: id, // int
-    //         //         meter: meter, // string
-    //         //     },
-    //         //     category: {
-    //         //         id: id,  // int
-    //         //         name: name, // string
-    //         //     },
-    //         //     subcategory: {
-    //         //         id: id, // int
-    //         //         name: name, // string
-    //         //         categoryId: category_id, // int
-    //         //     },
-    //         //     availableTunes: [
-    //         //         {
-    //         //             id: id, // int
-    //         //             name: name, // string
-    //         //             midiUrl: midi_url, // string
-    //         //             mp3Url: mp3_url, // string
-    //         //             isPremium: is_premium, // boolean
-    //         //             isDownloading: is_downloading, // boolean
-    //         //             isDownloaded: is_downloaded, // boolean
-    //         //             pitch: pitch, // string
-    //         //             tempo: tempo, // string
-    //         //         }
-    //         //     ],
-    //         // }
-    //     ]
+        const initDB = [
+            // {
+            //     title: title, // string
+            //     subtitle: subtitle, // string
+            //     hymnText: hymn_text, // string
+            //     hymnAuthor: hymn_author, // string
+            //     hymnBook: hymn_book, // int 1
+            //     bibleRef: {
+            //         book : 1, // int
+            //         ref: '', // string
+            //     },
+            //     hymnMeter: {
+            //         title: title, // string
+            //         img: img, // string
+            //         id: id, // int
+            //         meter: meter, // string
+            //     },
+            //     category: {
+            //         id: id,  // int
+            //         name: name, // string
+            //     },
+            //     subcategory: {
+            //         id: id, // int
+            //         name: name, // string
+            //         categoryId: category_id, // int
+            //     },
+            //     availableTunes: [
+            //         {
+            //             id: id, // int
+            //             name: name, // string
+            //             midiUrl: midi_url, // string
+            //             mp3Url: mp3_url, // string
+            //             isPremium: is_premium, // boolean
+            //             isDownloading: is_downloading, // boolean
+            //             isDownloaded: is_downloaded, // boolean
+            //             pitch: pitch, // string
+            //             tempo: tempo, // string
+            //         }
+            //     ],
+            // }
+        ]
 
 
-    //     // const authors = await getTable('authors');
+        const authors = await getTable('authors');
 
-    //     // console.log(authors)
+        console.log(authors)
 
     //     // const books = await getBooks();
 
