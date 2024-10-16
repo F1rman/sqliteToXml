@@ -13,9 +13,7 @@ const db = new sqlite3.Database(dbPath, (err) => {
         console.log('Connected to the database.');
     }
 });
-console.log(db)
 
-let bibleOBJ = [];
 
 const getTable = (table) => {
     return new Promise((resolve, reject) => {
@@ -29,17 +27,17 @@ const getTable = (table) => {
     });
 };
 
-// // const getVerses = (bookNumber) => {
-// //     return new Promise((resolve, reject) => {
-// //         db.all(`SELECT * FROM verses WHERE book_number = ?`, [bookNumber], (err, verses) => {
-// //             if (err) {
-// //                 reject(err);
-// //             } else {
-// //                 resolve(verses);
-// //             }
-// //         });
-// //     });
-// // };
+const getById = (table, row, id) => {
+    return new Promise((resolve, reject) => {
+        db.all(`SELECT * FROM ${table} WHERE ${row} = ?`, [id], (err, verses) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(verses);
+            }
+        });
+    });
+};
 
 
 init();
@@ -91,35 +89,26 @@ async function init() {
     const hymns = await getTable('hymns');
     const categories = await getTable('categories');
     const subcategories = await getTable('subcategories');
-    const references = await getTable('references');
-
-    // const authors = await getTable('authors');
-
+    const references = await getTable('references2');
+    const hymn_meters = await getTable('hymn_meters');
+    const files = await getTable('files');
     for (let i = 0; i < hymns.length; i++) {
         const category = categories.find(cat => cat.id === hymns[i].category);
         const hymn = hymns[i];
         const hymnObj = {
+            id: hymn.id,
             title: hymn.title,
             subtitle: hymn.subtitle,
             hymnText: hymn.content,
             hymnAuthor: hymn.author,
             hymnBook: 1,
-            // bibleRef: {
-            //     book: hymn.bibleRef.book,
-            //     ref: hymn.bibleRef.ref,
-            // },
-            // hymnMeter: {
-            //     title: hymn.hymnMeter.title,
-            //     img: hymn.hymnMeter.img,
-            //     id: hymn.hymnMeter.id,
-            //     meter: hymn.hymnMeter.meter,
-            // },
+
+
             category: {
                 id: category.id,
                 name: category.category_name,
             },
-
-            // availableTunes: hymn.availableTunes,
+           
 
 
         }
@@ -131,18 +120,61 @@ async function init() {
                 categoryId: subcategory.category,
             };
         }
-        console.log(references)
-        // const bibleRef = references.find(e => e.hymn === hymns[i].id);
-        // if (bibleRef !== undefined) {
-        //     hymnObj['bibleRef'] = {
-        //         book: 1,
-        //         ref: bibleRef.description,
-        //     };
-        // }
-        // initDB.push(hymnObj);
+        const bibleRef = references.find(e => e.hymn === hymns[i].id);
+        if (bibleRef !== undefined) {
+            hymnObj['bibleRef'] = {
+                book: bibleRef.slink,
+                ref: bibleRef.description,
+            };
+        }
+
+
+        const hymnMeter = hymn_meters.find(meter => meter.hymn_ids.includes(hymn.id));
+
+        if (hymnMeter !== undefined) {
+            hymnObj['hymnMeter'] = {
+                title: hymnMeter.hymn_title,
+                img: hymnMeter.hymn_meter_src,
+                id: hymnMeter.id,
+                meter: hymnMeter.meter,
+            };
+        }
+
+        const availableTunes = files.filter(file => file.hymn_id === hymn.id);
+        if (availableTunes.length > 0) {
+            hymnObj['availableTunes'] = availableTunes.map(tune => {
+                return {
+                    id: tune.id,
+                    name: tune.name.trim(),
+                    midiUrl: tune.midi_src,
+                    mp3Url: tune.mp3_src,
+                    isPremium: tune.access,
+                    isDownloading: false,
+                    isDownloaded: false,
+                    pitch: 0,
+                    tempo: 120,
+                }
+            }
+            );
+        }
+
+
+        initDB.push(hymnObj);
+
+
 
     }
-    // console.log(initDB)
+    console.log(initDB)
+
+
+    const outputPath = path.join(__dirname, 'init_db.json');
+    fs.writeFile(outputPath, JSON.stringify(initDB, null, 2), (err) => {
+        if (err) {
+            console.error('Error writing JSON file: ', err.message);
+        } else {
+            console.log('JSON file saved successfully');
+        }
+    });
 
 
     //     // const books = await getBooks();
