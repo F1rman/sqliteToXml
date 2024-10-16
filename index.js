@@ -99,8 +99,8 @@ async function init() {
             id: hymn.id,
             title: hymn.title,
             subtitle: hymn.subtitle,
-            hymnText: hymn.content,
-            hymnAuthor: hymn.author,
+            hymnText: hymn.content.replace(/<.*?>/g, ""),
+            hymnAuthor: hymn.author.replace(/<.*?>/g, ""),
             hymnBook: 1,
 
 
@@ -134,7 +134,7 @@ async function init() {
         if (hymnMeter !== undefined) {
             hymnObj['hymnMeter'] = {
                 title: hymnMeter.hymn_title,
-                img: hymnMeter.hymn_meter_src,
+                img: hymnMeter.hymn_meter_src.replace('.png',''),
                 id: hymnMeter.id,
                 meter: hymnMeter.meter,
             };
@@ -146,8 +146,8 @@ async function init() {
                 return {
                     id: tune.id,
                     name: tune.name.trim(),
-                    midiUrl: tune.midi_src,
-                    mp3Url: tune.mp3_src,
+                    midiUrl: tune.midi_src?.replace('data/midi/','').replace('.mid',''),
+                    mp3Url: tune.mp3_src?.replace('data/mp3/','').replace('.mp3',''),
                     isPremium: tune.access,
                     isDownloading: false,
                     isDownloaded: false,
