@@ -3,6 +3,75 @@ const path = require('path');
 const fs = require('fs');
 const builder = require('xmlbuilder');
 
+const billeBooksNames = [
+    'Genesis',
+    'Exodus',
+    'Leviticus',
+    'Numbers',
+    'Deuteronomy',
+    'Joshua',
+    'Judges',
+    'Ruth',
+    '1 Samuel',
+    '2 Samuel',
+    '1 Kings',
+    '2 Kings',
+    '1 Chronicles',
+    '2 Chronicles',
+    'Ezra',
+    'Nehemiah',
+    'Esther',
+    'Job',
+    'Psalms',
+    'Proverbs',
+    'Ecclesiastes',
+    'Song of Songs',
+    'Isaiah',
+    'Jeremiah',
+    'Lamentations',
+    'Ezekiel',
+    'Daniel',
+    'Hosea',
+    'Joel',
+    'Amos',
+    'Obadiah',
+    'Jonah',
+    'Micah',
+    'Nahum',
+    'Habakkuk',
+    'Zephaniah',
+    'Haggai',
+    'Zechariah',
+    'Malachi',
+    'Matthew',
+    'Mark',
+    'Luke',
+    'John',
+    'Acts',
+    'Romans',
+    '1 Corinthians',
+    '2 Corinthians',
+    'Galatians',
+    'Ephesians',
+    'Philippians',
+    'Colossians',
+    '1 Thessalonians',
+    '2 Thessalonians',
+    '1 Timothy',
+    '2 Timothy',
+    'Titus',
+    'Philemon',
+    'Hebrews',
+    'James',
+    '1 Peter',
+    '2 Peter',
+    '1 John',
+    '2 John',
+    '3 John',
+    'Jude',
+    'Revelation'
+];
+
 // Connect to the rst.sqlite3 database file
 const dbPath = path.join(__dirname, '', 'christian_hymns.db');
 console.log(dbPath)
@@ -91,6 +160,7 @@ async function init() {
     const subcategories = await getTable('subcategories');
     const references = await getTable('references2');
     const hymn_meters = await getTable('hymn_meters');
+    const DBbible = await getTable('bible');
     const files = await getTable('files');
     for (let i = 0; i < hymns.length; i++) {
         const category = categories.find(cat => cat.id === hymns[i].category);
@@ -108,7 +178,7 @@ async function init() {
                 id: category.id,
                 name: category.category_name,
             },
-           
+
 
 
         }
@@ -120,10 +190,16 @@ async function init() {
                 categoryId: subcategory.category,
             };
         }
+
+        // DBbible.book 
+        // billeBooksNames
         const bibleRef = references.find(e => e.hymn === hymns[i].id);
         if (bibleRef !== undefined) {
+            const bookName = DBbible[bibleRef.slink - 1].book;
+            const indexOfCorrectBook = billeBooksNames.indexOf(bookName);
+            console.log(bookName)
             hymnObj['bibleRef'] = {
-                book: bibleRef.slink,
+                book: indexOfCorrectBook + 1,
                 ref: bibleRef.description,
             };
         }
@@ -134,7 +210,7 @@ async function init() {
         if (hymnMeter !== undefined) {
             hymnObj['hymnMeter'] = {
                 title: hymnMeter.hymn_title,
-                img: hymnMeter.hymn_meter_src.replace('.png',''),
+                img: hymnMeter.hymn_meter_src.replace('.png', ''),
                 id: hymnMeter.id,
                 meter: hymnMeter.meter,
             };
@@ -146,8 +222,8 @@ async function init() {
                 return {
                     id: tune.id,
                     name: tune.name.trim(),
-                    midiUrl: tune.midi_src?.replace('data/midi/','').replace('.mid',''),
-                    mp3Url: tune.mp3_src?.replace('data/mp3/','').replace('.mp3',''),
+                    midiUrl: tune.midi_src?.replace('data/midi/', '').replace('.mid', ''),
+                    mp3Url: tune.mp3_src?.replace('data/mp3/', '').replace('.mp3', ''),
                     isPremium: tune.access == 1 ? true : false,
                     isDownloading: false,
                     isDownloaded: false,
@@ -164,7 +240,7 @@ async function init() {
 
 
     }
-    console.log(initDB)
+    // console.log(initDB)
 
 
     const outputPath = path.join(__dirname, 'init_db.json');
@@ -176,6 +252,6 @@ async function init() {
         }
     });
 
- 
+
 
 }
