@@ -197,7 +197,6 @@ async function init() {
         if (bibleRef !== undefined) {
             const bookName = DBbible[bibleRef.slink - 1].book;
             const indexOfCorrectBook = billeBooksNames.indexOf(bookName);
-            console.log(bookName)
             hymnObj['bibleRef'] = {
                 book: indexOfCorrectBook + 1,
                 ref: bibleRef.description,
@@ -205,8 +204,20 @@ async function init() {
         }
 
 
-        const hymnMeter = hymn_meters.find(meter => meter.hymn_ids.includes(hymn.id));
+        const hymnMeter = hymn_meters.find(meter => {
+            const ids = meter.hymn_ids.split(',').map(id => {
+                return parseInt(id);
+            });
+            for (let i = 0; i < ids.length; i++) {
+                if (ids[i] == hymn.id) {
+                    return true;
+                }
+            }
 
+        });
+        // if (hymn.id == 67) {
+        //     console.log(hymnMeter)
+        // }
         if (hymnMeter !== undefined) {
             hymnObj['hymnMeter'] = {
                 title: hymnMeter.hymn_title,

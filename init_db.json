@@ -20,10 +20,10 @@
       "ref": "Psalms 100"
     },
     "hymnMeter": {
-      "title": "AUGUSTINE",
-      "img": "augustine",
-      "id": 1,
-      "meter": "S.M."
+      "title": "OLD HUNDREDTH",
+      "img": "old_hundredth",
+      "id": 211,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -60,10 +60,10 @@
       "ref": "Psalms 100"
     },
     "hymnMeter": {
-      "title": "BOD ALWYN",
-      "img": "bod_alwyn",
-      "id": 2,
-      "meter": "S.M."
+      "title": "OLD HUNDREDTH",
+      "img": "old_hundredth",
+      "id": 211,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -95,10 +95,10 @@
       "ref": "1 Chronicles 29:14"
     },
     "hymnMeter": {
-      "title": "BOD ALWYN",
-      "img": "bod_alwyn",
-      "id": 2,
-      "meter": "S.M."
+      "title": "ANGEL VOICES",
+      "img": "angel_voices",
+      "id": 448,
+      "meter": "85.85.843"
     },
     "availableTunes": [
       {
@@ -130,10 +130,10 @@
       "ref": "1 Kings 9:3"
     },
     "hymnMeter": {
-      "title": "AUGUSTINE",
-      "img": "augustine",
-      "id": 1,
-      "meter": "S.M."
+      "title": "DARWALL'S 148th",
+      "img": "darwalls_148th",
+      "id": 310,
+      "meter": "66.66.88 (or 66.66.44.44)"
     },
     "availableTunes": [
       {
@@ -161,10 +161,10 @@
       "name": "Psalms"
     },
     "hymnMeter": {
-      "title": "BOD ALWYN",
-      "img": "bod_alwyn",
-      "id": 2,
-      "meter": "S.M."
+      "title": "RESIGNATION (Sing Psalms)",
+      "img": "resignation_sing_psalms",
+      "id": 156,
+      "meter": "D.C.M."
     },
     "availableTunes": [
       {
@@ -201,10 +201,10 @@
       "ref": "Psalms 117"
     },
     "hymnMeter": {
-      "title": "AUGUSTINE",
-      "img": "augustine",
-      "id": 1,
-      "meter": "S.M."
+      "title": "MORNING HYMN",
+      "img": "morning_hymn",
+      "id": 207,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -241,10 +241,10 @@
       "ref": "Psalms 95"
     },
     "hymnMeter": {
-      "title": "AUGUSTINE",
-      "img": "augustine",
-      "id": 1,
-      "meter": "S.M."
+      "title": "CHILEAN VENITE",
+      "img": "chilean_venite",
+      "id": 306,
+      "meter": "66.66.88 (or 66.66.44.44)"
     },
     "availableTunes": [
       {
@@ -303,10 +303,10 @@
       "ref": "Psalms 27:1"
     },
     "hymnMeter": {
-      "title": "BOYLSTON",
-      "img": "boylston",
-      "id": 3,
-      "meter": "S.M."
+      "title": "NEWCASTLE",
+      "img": "newcastle",
+      "id": 458,
+      "meter": "86.886"
     },
     "availableTunes": [
       {
@@ -343,10 +343,10 @@
       "ref": "Psalms 117"
     },
     "hymnMeter": {
-      "title": "AUGUSTINE",
-      "img": "augustine",
-      "id": 1,
-      "meter": "S.M."
+      "title": "LASST UNS ERFREUEN",
+      "img": "lasst_uns_erfreuen",
+      "id": 232,
+      "meter": "L.M. with hallelujahs"
     },
     "availableTunes": [
       {
@@ -394,10 +394,10 @@
       "ref": "Psalms 118:1-4"
     },
     "hymnMeter": {
-      "title": "AUGUSTINE",
-      "img": "augustine",
-      "id": 1,
-      "meter": "S.M."
+      "title": "ANTWERP",
+      "img": "antwerp",
+      "id": 175,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -456,10 +456,10 @@
       "ref": "Ruth 2:12"
     },
     "hymnMeter": {
-      "title": "GILDAS",
-      "img": "gildas",
-      "id": 11,
-      "meter": "S.M."
+      "title": "TRURO",
+      "img": "truro",
+      "id": 223,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -507,10 +507,10 @@
       "ref": "Genesis 1:31"
     },
     "hymnMeter": {
-      "title": "ICH HALTE TREULICH STILL",
-      "img": "ich_halte_treulich_still",
-      "id": 39,
-      "meter": "D.S.M."
+      "title": "SYRIA",
+      "img": "syria",
+      "id": 428,
+      "meter": "77.77.D"
     },
     "availableTunes": [
       {
@@ -558,10 +558,10 @@
       "ref": "Genesis 2:7"
     },
     "hymnMeter": {
-      "title": "CAMBRIDGE",
-      "img": "cambridge",
-      "id": 4,
-      "meter": "S.M."
+      "title": "SERAPH",
+      "img": "seraph",
+      "id": 159,
+      "meter": "D.C.M."
     },
     "availableTunes": [
       {
@@ -598,10 +598,10 @@
       "ref": "Psalms 63:4"
     },
     "hymnMeter": {
-      "title": "DIADEMATA",
-      "img": "diademata",
-      "id": 37,
-      "meter": "D.S.M."
+      "title": "MONMOUTH",
+      "img": "monmouth",
+      "id": 611,
+      "meter": "888.D"
     },
     "availableTunes": [
       {
@@ -638,9 +638,9 @@
       "ref": "Exodus 40:34"
     },
     "hymnMeter": {
-      "title": "BEATITUDO",
-      "img": "beatitudo",
-      "id": 58,
+      "title": "GREEN HILL",
+      "img": "green_hill",
+      "id": 82,
       "meter": "C.M."
     },
     "availableTunes": [
@@ -678,10 +678,10 @@
       "ref": "Psalms 36:5-6"
     },
     "hymnMeter": {
-      "title": "TRENTHAM",
-      "img": "trentham",
-      "id": 27,
-      "meter": "S.M."
+      "title": "ST DENIO (Joanna)",
+      "img": "st_denio_joanna",
+      "id": 679,
+      "meter": "11 11.11 11"
     },
     "availableTunes": [
       {
@@ -729,10 +729,10 @@
       "ref": "Psalms 136"
     },
     "hymnMeter": {
-      "title": "BISHOPTHORPE",
-      "img": "bishopthorpe",
-      "id": 63,
-      "meter": "C.M."
+      "title": "MONKLAND",
+      "img": "monkland",
+      "id": 400,
+      "meter": "77.77"
     },
     "availableTunes": [
       {
@@ -769,10 +769,10 @@
       "ref": "Genesis 28:16"
     },
     "hymnMeter": {
-      "title": "SANDYS",
-      "img": "sandys",
-      "id": 17,
-      "meter": "S.M."
+      "title": "VATER UNSER",
+      "img": "vater_unser",
+      "id": 608,
+      "meter": "88.88.88"
     },
     "availableTunes": [
       {
@@ -820,10 +820,10 @@
       "ref": "Psalms 145"
     },
     "hymnMeter": {
-      "title": "CARLISLE",
-      "img": "carlisle",
-      "id": 5,
-      "meter": "S.M."
+      "title": "IRISH",
+      "img": "irish",
+      "id": 86,
+      "meter": "C.M."
     },
     "availableTunes": [
       {
@@ -860,10 +860,10 @@
       "ref": "Deuteronomy 6:5"
     },
     "hymnMeter": {
-      "title": "CAMBRIDGE",
-      "img": "cambridge",
-      "id": 4,
-      "meter": "S.M."
+      "title": "WESTMINSTER",
+      "img": "westminster",
+      "id": 137,
+      "meter": "C.M."
     },
     "availableTunes": [
       {
@@ -940,10 +940,10 @@
       "ref": "Psalms 95:1-6"
     },
     "hymnMeter": {
-      "title": "SILCHESTER",
-      "img": "silchester",
-      "id": 20,
-      "meter": "S.M."
+      "title": "STRACATHRO",
+      "img": "stracathro",
+      "id": 130,
+      "meter": "C.M."
     },
     "availableTunes": [
       {
@@ -991,10 +991,10 @@
       "ref": "Nehemiah 9:5"
     },
     "hymnMeter": {
-      "title": "CYMER",
-      "img": "cymer",
-      "id": 6,
-      "meter": "S.M."
+      "title": "THAXTED",
+      "img": "thaxted",
+      "id": 378,
+      "meter": "76.76. triple"
     },
     "availableTunes": [
       {
@@ -1031,10 +1031,10 @@
       "ref": "Psalms 96:1"
     },
     "hymnMeter": {
-      "title": "TALLIS' ORDINAL",
-      "img": "tallis_ordinal",
-      "id": 132,
-      "meter": "C.M."
+      "title": "LAUDATE DOMINUM (Parry)",
+      "img": "laudate_dominum_parry",
+      "id": 247,
+      "meter": "55.55.65.65"
     },
     "availableTunes": [
       {
@@ -1078,10 +1078,10 @@
       "categoryId": 2
     },
     "hymnMeter": {
-      "title": "BOD ALWYN",
-      "img": "bod_alwyn",
-      "id": 2,
-      "meter": "S.M."
+      "title": "LAUDATE DOMINUM (Gauntlett)",
+      "img": "laudate_dominum_gauntlett",
+      "id": 246,
+      "meter": "55.55.65.65"
     },
     "availableTunes": [
       {
@@ -1129,10 +1129,10 @@
       "ref": "Exodus 15:3"
     },
     "hymnMeter": {
-      "title": "TRENTHAM",
-      "img": "trentham",
-      "id": 27,
-      "meter": "S.M."
+      "title": "SANCTISSIMUS",
+      "img": "sanctissimus",
+      "id": 690,
+      "meter": "12 10.12 10"
     },
     "availableTunes": [
       {
@@ -1180,10 +1180,10 @@
       "ref": "Psalms 65"
     },
     "hymnMeter": {
-      "title": "BEATITUDO",
-      "img": "beatitudo",
-      "id": 58,
-      "meter": "C.M."
+      "title": "MAINZER",
+      "img": "mainzer",
+      "id": 203,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -1231,10 +1231,10 @@
       "ref": "1 Chronicles 16:36"
     },
     "hymnMeter": {
-      "title": "ST BRIDE",
-      "img": "st_bride",
-      "id": 23,
-      "meter": "S.M."
+      "title": "LOBE DEN HERREN",
+      "img": "lobe_den_herren",
+      "id": 693,
+      "meter": "14.14.4.7.8"
     },
     "availableTunes": [
       {
@@ -1271,10 +1271,10 @@
       "ref": "Psalms 103"
     },
     "hymnMeter": {
-      "title": "FRANCONIA",
-      "img": "franconia",
-      "id": 10,
-      "meter": "S.M."
+      "title": "BLAENCEFN",
+      "img": "blaencefn",
+      "id": 533,
+      "meter": "87.87.47 and 87.87.87"
     },
     "availableTunes": [
       {
@@ -1322,10 +1322,10 @@
       "ref": "Philippians 2:11"
     },
     "hymnMeter": {
-      "title": "LLOYD",
-      "img": "lloyd",
-      "id": 91,
-      "meter": "C.M."
+      "title": "LOVE DIVINE (Stainer)",
+      "img": "love_divine_stainer",
+      "id": 470,
+      "meter": "87.87"
     },
     "availableTunes": [
       {
@@ -1373,10 +1373,10 @@
       "ref": "Psalms 98"
     },
     "hymnMeter": {
-      "title": "CYMER",
-      "img": "cymer",
-      "id": 6,
-      "meter": "S.M."
+      "title": "ODE TO JOY",
+      "img": "ode_to_joy",
+      "id": 509,
+      "meter": "87.87.D"
     },
     "availableTunes": [
       {
@@ -1413,10 +1413,10 @@
       "ref": "Isaiah 6:1-3"
     },
     "hymnMeter": {
-      "title": "BOD ALWYN",
-      "img": "bod_alwyn",
-      "id": 2,
-      "meter": "S.M."
+      "title": "LUX EOI",
+      "img": "lux_eoi",
+      "id": 505,
+      "meter": "87.87.D"
     },
     "availableTunes": [
       {
@@ -1464,10 +1464,10 @@
       "ref": "Job 38:7"
     },
     "hymnMeter": {
-      "title": "GILDAS",
-      "img": "gildas",
-      "id": 11,
-      "meter": "S.M."
+      "title": "LUBECK",
+      "img": "lubeck",
+      "id": 398,
+      "meter": "77.77"
     },
     "availableTunes": [
       {
@@ -1566,10 +1566,10 @@
       "ref": "Mark 5:19"
     },
     "hymnMeter": {
-      "title": "BROCCO BANK",
-      "img": "brocco_bank",
-      "id": 65,
-      "meter": "C.M."
+      "title": "GO FORTH",
+      "img": "go_forth",
+      "id": 640,
+      "meter": "10 10.10 10"
     },
     "availableTunes": [
       {
@@ -1657,10 +1657,10 @@
       "ref": "Psalms 118"
     },
     "hymnMeter": {
-      "title": "DENNIS",
-      "img": "dennis",
-      "id": 7,
-      "meter": "S.M."
+      "title": "RENDEZ A DIEU",
+      "img": "rendez_a_dieu",
+      "id": 624,
+      "meter": "98.98.D"
     },
     "availableTunes": [
       {
@@ -1697,10 +1697,10 @@
       "ref": "Psalms 96:2"
     },
     "hymnMeter": {
-      "title": "GWENGAR",
-      "img": "gwengar",
-      "id": 13,
-      "meter": "S.M."
+      "title": "DARWALL'S 148th",
+      "img": "darwalls_148th",
+      "id": 310,
+      "meter": "66.66.88 (or 66.66.44.44)"
     },
     "availableTunes": [
       {
@@ -1737,10 +1737,10 @@
       "ref": "Psalms 98"
     },
     "hymnMeter": {
-      "title": "TYTHERTON",
-      "img": "tytherton",
-      "id": 29,
-      "meter": "S.M."
+      "title": "MAESGWYN",
+      "img": "maesgwyn",
+      "id": 280,
+      "meter": "65.65.D"
     },
     "availableTunes": [
       {
@@ -1788,10 +1788,10 @@
       "ref": "Numbers 23:19"
     },
     "hymnMeter": {
-      "title": "AUGUSTINE",
-      "img": "augustine",
-      "id": 1,
-      "meter": "S.M."
+      "title": "ST MAGNUS",
+      "img": "st_magnus",
+      "id": 124,
+      "meter": "C.M."
     },
     "availableTunes": [
       {
@@ -1839,10 +1839,10 @@
       "ref": "Psalms 45:3"
     },
     "hymnMeter": {
-      "title": "CARLISLE",
-      "img": "carlisle",
-      "id": 5,
-      "meter": "S.M."
+      "title": "OLIVET",
+      "img": "olivet",
+      "id": 293,
+      "meter": "664.666.4"
     },
     "availableTunes": [
       {
@@ -1890,10 +1890,10 @@
       "ref": "Psalms 133:3"
     },
     "hymnMeter": {
-      "title": "TRENTHAM",
-      "img": "trentham",
-      "id": 27,
-      "meter": "S.M."
+      "title": "FULDA",
+      "img": "fulda",
+      "id": 191,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -1941,10 +1941,10 @@
       "ref": "Psalms 47:8"
     },
     "hymnMeter": {
-      "title": "TUAM",
-      "img": "tuam",
-      "id": 28,
-      "meter": "S.M."
+      "title": "ANGELUS",
+      "img": "angelus",
+      "id": 174,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -1992,10 +1992,10 @@
       "ref": "1 Chronicles 16:29"
     },
     "hymnMeter": {
-      "title": "GILDAS",
-      "img": "gildas",
-      "id": 11,
-      "meter": "S.M."
+      "title": "REGENT SQUARE",
+      "img": "regent_square",
+      "id": 547,
+      "meter": "87.87.47 and 87.87.87"
     },
     "availableTunes": [
       {
@@ -2032,10 +2032,10 @@
       "ref": "Psalms 11:4"
     },
     "hymnMeter": {
-      "title": "WOOLWICH",
-      "img": "woolwich",
-      "id": 33,
-      "meter": "S.M."
+      "title": "GRONINGEN",
+      "img": "groningen",
+      "id": 330,
+      "meter": "668.668.33.66"
     },
     "availableTunes": [
       {
@@ -2072,10 +2072,10 @@
       "ref": "Genesis 1:26-27"
     },
     "hymnMeter": {
-      "title": "DIADEMATA",
-      "img": "diademata",
-      "id": 37,
-      "meter": "D.S.M."
+      "title": "BETHANY (87.87.D)",
+      "img": "",
+      "id": 489,
+      "meter": "87.87.D"
     },
     "availableTunes": [
       {
@@ -2112,10 +2112,10 @@
       "ref": "Isaiah 6:3"
     },
     "hymnMeter": {
-      "title": "GILDAS",
-      "img": "gildas",
-      "id": 11,
-      "meter": "S.M."
+      "title": "NICAEA",
+      "img": "nicaea",
+      "id": 688,
+      "meter": "11 12. 12 10"
     },
     "availableTunes": [
       {
@@ -2152,10 +2152,10 @@
       "ref": "Psalms 89:34"
     },
     "hymnMeter": {
-      "title": "ST MICHAEL",
-      "img": "st_michael",
-      "id": 25,
-      "meter": "S.M."
+      "title": "EPIPHANY HYMN",
+      "img": "epiphany_hymn",
+      "id": 660,
+      "meter": "11 10.11 10 (dactylic)"
     },
     "availableTunes": [
       {
@@ -2203,10 +2203,10 @@
       "ref": "Galatians 5:22"
     },
     "hymnMeter": {
-      "title": "BOD ALWYN",
-      "img": "bod_alwyn",
-      "id": 2,
-      "meter": "S.M."
+      "title": "QUEM PASTORES lAUDAVERE",
+      "img": "quem_pastores_laudavere",
+      "id": 583,
+      "meter": "888.7 (trochaic)"
     },
     "availableTunes": [
       {
@@ -2243,10 +2243,10 @@
       "ref": "Psalms 147:5"
     },
     "hymnMeter": {
-      "title": "BEATITUDO",
-      "img": "beatitudo",
-      "id": 58,
-      "meter": "C.M."
+      "title": "PATER OMNIUM",
+      "img": "pater_omnium",
+      "id": 600,
+      "meter": "88.88.88"
     },
     "availableTunes": [
       {
@@ -2294,10 +2294,10 @@
       "ref": "Psalms 48:14"
     },
     "hymnMeter": {
-      "title": "CALVARY",
-      "img": "calvary",
-      "id": 34,
-      "meter": "S.M. with refrain"
+      "title": "NUN DANKET",
+      "img": "nun_danket",
+      "id": 339,
+      "meter": "67.67.66.66"
     },
     "availableTunes": [
       {
@@ -2334,10 +2334,10 @@
       "ref": "Genesis 17:1"
     },
     "hymnMeter": {
-      "title": "SOUTHWELL S.M.",
-      "img": "southwell_sm",
-      "id": 22,
-      "meter": "S.M."
+      "title": "LEONI",
+      "img": "leoni",
+      "id": 325,
+      "meter": "66.84.D"
     },
     "availableTunes": [
       {
@@ -2374,10 +2374,10 @@
       "ref": "Galatians 3:13"
     },
     "hymnMeter": {
-      "title": "ST BRIDE",
-      "img": "st_bride",
-      "id": 23,
-      "meter": "S.M."
+      "title": "EASTVIEW",
+      "img": "eastview",
+      "id": 311,
+      "meter": "66.66.88 (or 66.66.44.44)"
     },
     "availableTunes": [
       {
@@ -2436,10 +2436,10 @@
       "ref": "Psalms 93:1-2"
     },
     "hymnMeter": {
-      "title": "PEN-PARC",
-      "img": "pen_parc",
-      "id": 16,
-      "meter": "S.M."
+      "title": "NIAGARA",
+      "img": "niagara",
+      "id": 209,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -2476,10 +2476,10 @@
       "ref": "Psalms 29:1-2"
     },
     "hymnMeter": {
-      "title": "BROCCO BANK",
-      "img": "brocco_bank",
-      "id": 65,
-      "meter": "C.M."
+      "title": "CHRISTCHURCH",
+      "img": "christchurch",
+      "id": 307,
+      "meter": "66.66.88 (or 66.66.44.44)"
     },
     "availableTunes": [
       {
@@ -2527,10 +2527,10 @@
       "ref": "Revelation 5:12"
     },
     "hymnMeter": {
-      "title": "DALEHURST",
-      "img": "dalehurst",
-      "id": 71,
-      "meter": "C.M."
+      "title": "THINE THE GLORY",
+      "img": "thine_the_glory",
+      "id": 712,
+      "meter": "Irregular"
     },
     "availableTunes": [
       {
@@ -2567,10 +2567,10 @@
       "ref": "Psalms 72:19"
     },
     "hymnMeter": {
-      "title": "BEETHOVEN",
-      "img": "beethoven",
-      "id": 60,
-      "meter": "C.M."
+      "title": "MAINZER",
+      "img": "mainzer",
+      "id": 203,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -2607,10 +2607,10 @@
       "ref": "Galatians 2:20"
     },
     "hymnMeter": {
-      "title": "BOYLSTON",
-      "img": "boylston",
-      "id": 3,
-      "meter": "S.M."
+      "title": "ST JOHN",
+      "img": "st_john",
+      "id": 321,
+      "meter": "66.66.88 (or 66.66.44.44)"
     },
     "availableTunes": [
       {
@@ -2647,10 +2647,10 @@
       "ref": "Psalms 118:24"
     },
     "hymnMeter": {
-      "title": "BOD ALWYN",
-      "img": "bod_alwyn",
-      "id": 2,
-      "meter": "S.M."
+      "title": "NUN DANKET ALL'",
+      "img": "nun_danket_all",
+      "id": 105,
+      "meter": "C.M."
     },
     "availableTunes": [
       {
@@ -2698,10 +2698,10 @@
       "ref": "Psalms 118:24"
     },
     "hymnMeter": {
-      "title": "DONCASTER",
-      "img": "doncaster",
-      "id": 8,
-      "meter": "S.M."
+      "title": "EDITH",
+      "img": "edith",
+      "id": 591,
+      "meter": "88.88.88"
     },
     "availableTunes": [
       {
@@ -2789,10 +2789,10 @@
       "ref": "Exodus 33:18"
     },
     "hymnMeter": {
-      "title": "ST MICHAEL",
-      "img": "st_michael",
-      "id": 25,
-      "meter": "S.M."
+      "title": "LONDON NEW",
+      "img": "london_new",
+      "id": 92,
+      "meter": "C.M."
     },
     "availableTunes": [
       {
@@ -2829,10 +2829,10 @@
       "ref": "Genesis 1:3"
     },
     "hymnMeter": {
-      "title": "BEATITUDO",
-      "img": "beatitudo",
-      "id": 58,
-      "meter": "C.M."
+      "title": "DAY OF REST",
+      "img": "day_of_rest",
+      "id": 359,
+      "meter": "76.76.D"
     },
     "availableTunes": [
       {
@@ -2869,10 +2869,10 @@
       "ref": "Psalms 92"
     },
     "hymnMeter": {
-      "title": "FRANCONIA",
-      "img": "franconia",
-      "id": 10,
-      "meter": "S.M."
+      "title": "DAVID'S HARP (L.M.)",
+      "img": "davids_harp_lm",
+      "id": 183,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -2960,10 +2960,10 @@
       "ref": "Psalms 67:1"
     },
     "hymnMeter": {
-      "title": "MARTYRDOM",
-      "img": "",
-      "id": 98,
-      "meter": "C.M."
+      "title": "SIMEON",
+      "img": "simeon",
+      "id": 219,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -3000,10 +3000,10 @@
       "ref": "Genesis 5:24"
     },
     "hymnMeter": {
-      "title": "AYRSHIRE",
-      "img": "ayrshire",
-      "id": 53,
-      "meter": "C.M."
+      "title": "LUBECK",
+      "img": "lubeck",
+      "id": 398,
+      "meter": "77.77"
     },
     "availableTunes": [
       {
@@ -3040,10 +3040,10 @@
       "ref": "Psalms 108:1-2"
     },
     "hymnMeter": {
-      "title": "SILCHESTER",
-      "img": "silchester",
-      "id": 20,
-      "meter": "S.M."
+      "title": "MORNING HYMN",
+      "img": "morning_hymn",
+      "id": 207,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -3171,10 +3171,10 @@
       "ref": "John 8:12"
     },
     "hymnMeter": {
-      "title": "LYDIA",
-      "img": "lydia",
-      "id": 94,
-      "meter": "C.M."
+      "title": "MELCOMBE",
+      "img": "melcombe",
+      "id": 206,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -3222,10 +3222,10 @@
       "ref": "Psalms 95:6"
     },
     "hymnMeter": {
-      "title": "SILCHESTER",
-      "img": "silchester",
-      "id": 20,
-      "meter": "S.M."
+      "title": "BONN",
+      "img": "bonn",
+      "id": 435,
+      "meter": "8.33.6.D"
     },
     "availableTunes": [
       {
@@ -3273,10 +3273,10 @@
       "ref": "Psalms 72:15"
     },
     "hymnMeter": {
-      "title": "CAMERTON",
-      "img": "camerton",
-      "id": 36,
-      "meter": "D.S.M."
+      "title": "LAUDES DOMINI",
+      "img": "laudes_domini",
+      "id": 303,
+      "meter": "666.D"
     },
     "availableTunes": [
       {
@@ -3313,10 +3313,10 @@
       "ref": "Mark 1:32"
     },
     "hymnMeter": {
-      "title": "FROM STRENGTH TO STRENGTH",
-      "img": "from_strength_to_strength",
-      "id": 38,
-      "meter": "D.S.M."
+      "title": "ANGELUS",
+      "img": "angelus",
+      "id": 174,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -3353,10 +3353,10 @@
       "ref": "Psalms 4:8"
     },
     "hymnMeter": {
-      "title": "FALCON STREET",
-      "img": "falcon_street",
-      "id": 9,
-      "meter": "S.M."
+      "title": "THANET",
+      "img": "thanet",
+      "id": 434,
+      "meter": "8.33.6"
     },
     "availableTunes": [
       {
@@ -3393,10 +3393,10 @@
       "ref": "Psalms 63:6"
     },
     "hymnMeter": {
-      "title": "DENNIS",
-      "img": "dennis",
-      "id": 7,
-      "meter": "S.M."
+      "title": "TALLIS' CANON",
+      "img": "tallis_canon",
+      "id": 222,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -3433,9 +3433,9 @@
       "ref": "Psalms 4:8"
     },
     "hymnMeter": {
-      "title": "HUDDERSFIELD S.M.",
-      "img": "huddersfield_sm",
-      "id": 14,
+      "title": "VESPERS",
+      "img": "vespers",
+      "id": 31,
       "meter": "S.M."
     },
     "availableTunes": [
@@ -3473,10 +3473,10 @@
       "ref": "Psalms 4:8"
     },
     "hymnMeter": {
-      "title": "BAYS OF HARRIS",
-      "img": "bays_of_harris",
-      "id": 57,
-      "meter": "C.M."
+      "title": "ELLERS",
+      "img": "ellers",
+      "id": 638,
+      "meter": "10 10.10 10"
     },
     "availableTunes": [
       {
@@ -3513,10 +3513,10 @@
       "ref": "1 Chronicles 23:30"
     },
     "hymnMeter": {
-      "title": "CARLISLE",
-      "img": "carlisle",
-      "id": 5,
-      "meter": "S.M."
+      "title": "ST CLEMENT",
+      "img": "st_clement",
+      "id": 622,
+      "meter": "98.98"
     },
     "availableTunes": [
       {
@@ -3553,10 +3553,10 @@
       "ref": "Ephesians 3:17"
     },
     "hymnMeter": {
-      "title": "ST BRIDE",
-      "img": "st_bride",
-      "id": 23,
-      "meter": "S.M."
+      "title": "MELCOMBE",
+      "img": "melcombe",
+      "id": 206,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -3593,10 +3593,10 @@
       "ref": "2 Corinthians 13:14"
     },
     "hymnMeter": {
-      "title": "CAMBRIDGE",
-      "img": "cambridge",
-      "id": 4,
-      "meter": "S.M."
+      "title": "SUSSEX",
+      "img": "sussex",
+      "id": 480,
+      "meter": "87.87"
     },
     "availableTunes": [
       {
@@ -3633,10 +3633,10 @@
       "ref": "Psalms 4:8"
     },
     "hymnMeter": {
-      "title": "CAMBRIDGE",
-      "img": "cambridge",
-      "id": 4,
-      "meter": "S.M."
+      "title": "LEAD ME, LORD",
+      "img": "lead_me_lord",
+      "id": 701,
+      "meter": "Irregular"
     },
     "availableTunes": [
       {
@@ -3673,10 +3673,10 @@
       "ref": "Exodus 33:14"
     },
     "hymnMeter": {
-      "title": "BILLING",
-      "img": "billing",
-      "id": 62,
-      "meter": "C.M."
+      "title": "DISMISSAL",
+      "img": "dismissal",
+      "id": 539,
+      "meter": "87.87.47 and 87.87.87"
     },
     "availableTunes": [
       {
@@ -3713,10 +3713,10 @@
       "ref": "Hebrews 13:20-21"
     },
     "hymnMeter": {
-      "title": "ABBEY",
-      "img": "abbey",
-      "id": 44,
-      "meter": "C.M."
+      "title": "UNIVERSITY COLLEGE",
+      "img": "university_college",
+      "id": 405,
+      "meter": "77.77"
     },
     "availableTunes": [
       {
@@ -3753,10 +3753,10 @@
       "ref": "Matthew 11:19"
     },
     "hymnMeter": {
-      "title": "ST MICHAEL",
-      "img": "st_michael",
-      "id": 25,
-      "meter": "S.M."
+      "title": "QUAM DILECTA",
+      "img": "quam_dilecta",
+      "id": 297,
+      "meter": "66.66"
     },
     "availableTunes": [
       {
@@ -3793,10 +3793,10 @@
       "ref": "Jude 1:24"
     },
     "hymnMeter": {
-      "title": "BEATITUDO",
-      "img": "beatitudo",
-      "id": 58,
-      "meter": "C.M."
+      "title": "ROUSSEAU",
+      "img": "rousseau",
+      "id": 549,
+      "meter": "87.87.47 and 87.87.87"
     },
     "availableTunes": [
       {
@@ -3833,10 +3833,10 @@
       "ref": "Psalms 150:6"
     },
     "hymnMeter": {
-      "title": "LLANLLYFNI",
-      "img": "llanllyfni",
-      "id": 41,
-      "meter": "D.S.M."
+      "title": "TALLIS' CANON",
+      "img": "tallis_canon",
+      "id": 222,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -3884,10 +3884,10 @@
       "ref": "Revelation 5:13"
     },
     "hymnMeter": {
-      "title": "ST MICHAEL",
-      "img": "st_michael",
-      "id": 25,
-      "meter": "S.M."
+      "title": "OLD HUNDREDTH",
+      "img": "old_hundredth",
+      "id": 211,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -3935,10 +3935,10 @@
       "ref": "Hebrews 13:21"
     },
     "hymnMeter": {
-      "title": "BOYLSTON",
-      "img": "boylston",
-      "id": 3,
-      "meter": "S.M."
+      "title": "PADERBORN",
+      "img": "paderborn",
+      "id": 249,
+      "meter": "55.55.65.65"
     },
     "availableTunes": [
       {
@@ -3986,10 +3986,10 @@
       "ref": "Revelation 1:5-6"
     },
     "hymnMeter": {
-      "title": "BOD ALWYN",
-      "img": "bod_alwyn",
-      "id": 2,
-      "meter": "S.M."
+      "title": "TRIUMPH",
+      "img": "triumph",
+      "id": 551,
+      "meter": "87.87.47 and 87.87.87"
     },
     "availableTunes": [
       {
@@ -4026,10 +4026,10 @@
       "ref": "Psalms 150"
     },
     "hymnMeter": {
-      "title": "CAMBRIDGE",
-      "img": "cambridge",
-      "id": 4,
-      "meter": "S.M."
+      "title": "SICILIAN MARINERS",
+      "img": "sicilian_mariners",
+      "id": 474,
+      "meter": "87.87"
     },
     "availableTunes": [
       {
@@ -4066,10 +4066,10 @@
       "ref": "Romans 11:36"
     },
     "hymnMeter": {
-      "title": "BOD ALWYN",
-      "img": "bod_alwyn",
-      "id": 2,
-      "meter": "S.M."
+      "title": "LAUS DEO",
+      "img": "laus_deo",
+      "id": 468,
+      "meter": "87.87"
     },
     "availableTunes": [
       {
@@ -4106,10 +4106,10 @@
       "ref": "Psalms 147"
     },
     "hymnMeter": {
-      "title": "CARLISLE",
-      "img": "carlisle",
-      "id": 5,
-      "meter": "S.M."
+      "title": "ROUSSEAU",
+      "img": "rousseau",
+      "id": 549,
+      "meter": "87.87.47 and 87.87.87"
     },
     "availableTunes": [
       {
@@ -4146,10 +4146,10 @@
       "ref": "Colossians 1:16"
     },
     "hymnMeter": {
-      "title": "ALBANO",
-      "img": "albano",
-      "id": 48,
-      "meter": "C.M."
+      "title": "FROM MOUNTAIN SUMMIT GRAND",
+      "img": "from_mountain_summit_grand",
+      "id": 697,
+      "meter": "Irregular"
     },
     "availableTunes": [
       {
@@ -4197,10 +4197,10 @@
       "ref": "Psalms 8:1,9"
     },
     "hymnMeter": {
-      "title": "HUDDERSFIELD S.M.",
-      "img": "huddersfield_sm",
-      "id": 14,
-      "meter": "S.M."
+      "title": "ST SAVIOUR",
+      "img": "st_saviour",
+      "id": 128,
+      "meter": "C.M."
     },
     "availableTunes": [
       {
@@ -4259,10 +4259,10 @@
       "ref": "Psalms 84:11"
     },
     "hymnMeter": {
-      "title": "MANCHESTER",
-      "img": "manchester",
-      "id": 97,
-      "meter": "C.M."
+      "title": "MARYTON",
+      "img": "maryton",
+      "id": 205,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
@@ -4299,10 +4299,10 @@
       "ref": "Psalms 95:6"
     },
     "hymnMeter": {
-      "title": "GOLDEN HILL",
-      "img": "golden_hill",
-      "id": 12,
-      "meter": "S.M."
+      "title": "HANOVER",
+      "img": "hanover",
+      "id": 244,
+      "meter": "55.55.65.65"
     },
     "availableTunes": [
       {
@@ -4350,10 +4350,10 @@
       "ref": "Psalms 148"
     },
     "hymnMeter": {
-      "title": "ST ANDREW (C.M.)",
-      "img": "st_andrew_cm",
-      "id": 116,
-      "meter": "C.M."
+      "title": "AUSTRIA",
+      "img": "austria",
+      "id": 488,
+      "meter": "87.87.D"
     },
     "availableTunes": [
       {
@@ -4412,10 +4412,10 @@
       "ref": "Psalms 147"
     },
     "hymnMeter": {
-      "title": "DONCASTER",
-      "img": "doncaster",
-      "id": 8,
-      "meter": "S.M."
+      "title": "HAMPSTEAD",
+      "img": "hampstead",
+      "id": 195,
+      "meter": "L.M."
     },
     "availableTunes": [
       {
