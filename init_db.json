@@ -6596,43 +6596,10 @@
       "name": "Providence",
       "categoryId": 3
     },
-    "bibleRef": [
-      {
-        "book": 1,
-        "ref": "Genesis 1",
-        "sort": 110
-      },
-      {
-        "book": 18,
-        "ref": "Job 23:10",
-        "sort": 162310
-      },
-      {
-        "book": 19,
-        "ref": "Psalms 33:6,9",
-        "sort": 17336
-      },
-      {
-        "book": 45,
-        "ref": "Romans 8:28",
-        "sort": 41828
-      },
-      {
-        "book": 45,
-        "ref": "Romans 8:38-39",
-        "sort": 41838
-      },
-      {
-        "book": 50,
-        "ref": "Philippians 2:10",
-        "sort": 46210
-      },
-      {
-        "book": 58,
-        "ref": "Hebrews 12:11",
-        "sort": 521211
-      }
-    ],
+    "bibleRef": {
+      "book": 1,
+      "ref": "Genesis 0"
+    },
     "hymnMeter": {
       "title": "LYMINGTON",
       "img": "lymington",
