@@ -119,10 +119,11 @@ async function init() {
         //     hymnText: hymn_text, // string
         //     hymnAuthor: hymn_author, // string
         //     hymnBook: hymn_book, // int 1
-        //     bibleRef: {
+        //     bibleRef: [{
         //         book : 1, // int
         //         ref: '', // string
-        //     },
+        //         sort: 1, // int
+        //     }],
         //     hymnMeter: {
         //         title: title, // string
         //         img: img, // string
@@ -193,15 +194,43 @@ async function init() {
 
         // DBbible.book 
         // billeBooksNames
-        const bibleRef = references.find(e => e.hymn === hymns[i].id);
-        if (bibleRef !== undefined) {
-            const bookName = DBbible[bibleRef.slink - 1].book;
+        // find all references for this hymn
+        const hymnRefs = references.filter(ref => ref.hymn === hymns[i].id);
+        console.log(hymnRefs.length)
+        hymnObj['bibleRef']=[];
+        hymnRefs.forEach(ref => {
+            const bookName = DBbible[ref.slink - 1].book;
             const indexOfCorrectBook = billeBooksNames.indexOf(bookName);
-            hymnObj['bibleRef'] = {
-                book: indexOfCorrectBook + 1,
-                ref: bibleRef.description,
-            };
-        }
+            if (indexOfCorrectBook === -1) {
+                console.log('book not found', bookName);
+                return;
+            }
+            if (hymnObj['bibleRef'] === undefined) {
+                hymnObj['bibleRef'] = [
+                    {
+                        book: indexOfCorrectBook + 1,
+                        ref: ref.description,
+                        sort: ref.link,
+                    }
+                ];
+            }
+            else {
+                hymnObj['bibleRef'].push({
+                    book: indexOfCorrectBook + 1,
+                    ref: ref.description,
+                    sort: ref.link,
+                });
+            }
+
+        });
+
+
+
+        // {
+        //     book: indexOfCorrectBook + 1,
+        //     ref: bibleRef.description,
+        // };
+
 
 
         const hymnMeter = hymn_meters.find(meter => {
