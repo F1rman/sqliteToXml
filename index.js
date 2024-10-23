@@ -116,6 +116,7 @@ async function init() {
         // {
         //     title: title, // string
         //     subtitle: subtitle, // string
+        //     psalm: 'psalm 1', // string
         //     hymnText: hymn_text, // string
         //     hymnAuthor: hymn_author, // string
         //     hymnBook: hymn_book, // int 1
@@ -163,12 +164,14 @@ async function init() {
     const hymn_meters = await getTable('hymn_meters');
     const DBbible = await getTable('bible');
     const files = await getTable('files');
+    const psalms = await getTable('psalms');
     for (let i = 0; i < hymns.length; i++) {
         const category = categories.find(cat => cat.id === hymns[i].category);
         const hymn = hymns[i];
         const hymnObj = {
             id: hymn.id,
             title: hymn.title,
+
             subtitle: hymn.subtitle,
             hymnText: hymn.content.replace(/<.*?>/g, ""),
             hymnAuthor: hymn.author.replace(/<.*?>/g, ""),
@@ -183,6 +186,10 @@ async function init() {
 
 
         }
+        const psalm = psalms.find(p => p.hymn_id === hymn.id);
+        if (psalm !== undefined) {
+            hymnObj['psalm'] = psalm.name.replace('Psalm ', '')
+        }
         const subcategory = subcategories.find(subcat => subcat.id === hymns[i].subcategory);
         if (subcategory !== undefined && subcategory.category === category.id) {
             hymnObj['subcategory'] = {
@@ -196,7 +203,7 @@ async function init() {
         // billeBooksNames
         // find all references for this hymn
         const hymnRefs = references.filter(ref => ref.hymn === hymns[i].id);
-        hymnObj['bibleRef']=[];
+        hymnObj['bibleRef'] = [];
         hymnRefs.forEach(ref => {
             const bookName = DBbible[ref.slink - 1].book;
             const indexOfCorrectBook = billeBooksNames.indexOf(bookName);
